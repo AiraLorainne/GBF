@@ -1,0 +1,177 @@
+/*-- CONTACT --*/
+
+#contact{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://i.postimg.cc/xd5tJ78r/BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: hidden;
+  max-width: 100%;
+  }
+  
+  #socials_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+    height: 60px;
+    margin-top: .1%;
+    border-bottom: 1.5px solid azure;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  }
+  
+  #socials_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    background-color: rgba(100, 100, 100, 0.6);
+    margin: 25px;
+  }
+
+  .links{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    gap:7rem;
+    color:white;
+    position: absolute;
+    top: 15px;
+    margin-top: -.5%;
+    left: -1%;
+    text-align: center;
+    font-size: 20px;
+}
+.lihome{
+  background-color: lightseagreen;
+  padding: .5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.lihome .fa-house{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.lihome:hover{
+  transform: scale(1.0);
+  background-color: rgb(69, 69, 218);
+}
+.limess .fa-facebook-messenger{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.limail .fa-envelope{
+  padding-right: 5px;
+  padding-left: 3px;
+}
+.licall .fa-phone{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.btn{
+  padding: .5rem 1rem;
+  font-size: 22px;
+  color:white;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 25px;
+  top: 33px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -2%;
+  margin-right: 2%;
+}
+.btn:hover{
+  background-color: rgb(69, 69, 218);
+}
+
+  #contact_header{
+    display: fixed;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    font-size: 100px;
+    font-family: 'Bangers';
+    font-weight: bold;
+    color: gold;
+    margin-top: 2%;
+    letter-spacing: .3em;
+    text-shadow: -10px 1px black;
+  }
+  
+  #contact_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  
+  #contact_box{
+    height: 200px;
+    width: 300px;
+    margin: 60px;
+    align-items: center;
+  }
+
+  #coach_img{
+    height: 290px;
+    width: 230px;
+    border-radius: 10%;
+    display: fixed;
+    margin-left: 10%;
+    margin-top: -10%;
+    background: white;
+    box-shadow: 0px 0px 100px black;
+  }
+
+  #h2{
+    align-items: center;
+  }
+
+  .media{
+    list-style: none;
+    letter-spacing: .2rem;
+    background-color: #323232;
+    width: 300px;
+    height: 65px;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 10px;
+    margin-left: -5%;
+  }
+  .mess{
+    margin-left: -7%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .mess .fa-facebook-messenger{
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  .mail{
+    margin-left: -7%;
+  }
+  .mail .fa-envelope{
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+  .phone{
+    margin-left: -7%;
+  }
+  .phone .fa-phone{
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
