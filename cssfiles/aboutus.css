@@ -2,7 +2,7 @@
 #aboutus{
     margin-top: 2%;
     box-sizing: border-box;
-    background-image: url(https://i.postimg.cc/SQn3Q0J8/1.png);
+    background-image: url(https://i.postimg.cc/C11GXxN5/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -105,7 +105,7 @@
   padding: .5rem 1rem;
   font-size: 22px;
   color:white;
-  background-color: lightseagreen;
+  background-color: rgb(109, 69, 218);
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -150,8 +150,8 @@
   }
   
   #aboutus_text_box{
-    height: 450px;
-    width: 270px;
+    height: 505px;
+    width: 295px;
     border-top-left-radius:  15px;
     border-top-right-radius:  15px;
     background-color: rgb(0,0,0); /* Fallback color */

@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: -0.1%;
     box-sizing: border-box;
 }
 
@@ -156,15 +156,15 @@ header{
     opacity: 70%;
 }
 .text{
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     padding: 1rem;
     height: fit-content;
-    color: azure;
-    margin-top: -1%;
+    color: whitesmoke;
+    margin-top: -4.5%;
     margin-left: 1%;
-    width: 1200px;
+    width: 1000px;
     z-index: 1;
     text-align: justify;
     background-color: rgb(0,0,0); /* Fallback color */
@@ -176,24 +176,25 @@ header{
     background-image: url(https://i.postimg.cc/fTm2X4GX/vidbg.png); 
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: -8.9%;
-    margin-left: 7.4%;
+    margin-top: -11%;
+    margin-left: 2%;
     z-index: 1;
 }
 video{
-    width:550px; 
-    height:350px;
-    padding-left: 1.1%;
-    padding-top: -17%;
+    width:650px; 
+    height: 400px;
+    padding-left: 1%;
+    padding-top: 2%;
     padding-right: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 1.5%;
     background-color: teal;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-left: 5.5%;
-    margin-top: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    object-fit: fill;
 }
 footer{
     display: flex;
@@ -204,7 +205,7 @@ footer{
     body{
         max-width: 1700px;
         padding: 50px;
-        background-image: url(https://i.postimg.cc/W3NFK0xC/GBF-WEBSITE.png);
+        background-image: url(https://i.postimg.cc/dtrSxmyM/lool.png);
         background-size: cover;
         background-repeat: no-repeat;
          background-attachment: fixed;
@@ -249,7 +250,7 @@ footer{
     video{
         padding:10px;
         width:350px; 
-        height:230px;
+        height:100px;
     }
     footer{
         display: flex;
